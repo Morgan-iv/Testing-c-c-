@@ -130,8 +130,8 @@ int main()
 			(t == s && (arr[x].second < p1 || arr[y].second < p1)))
 		{
 			s = t;
-			p1 = arr[x].second;
 			p2 = arr[y].second;
+			p1 = arr[x].second;
 			if (p1 > p2) swap(p1, p2);
 		}
 		if (n > 0) a = x, a0 = 1;
